@@ -1,0 +1,16 @@
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.Services.deps.json
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.Services.dll
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.Services.pdb
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.DAL.dll
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.Domain.dll
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.PersistenceDB.dll
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.DAL.pdb
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.Domain.pdb
+C:\vsprojects\PersonApp\PersonApp.Services\bin\Debug\netcoreapp3.1\PersonApp.PersistenceDB.pdb
+C:\vsprojects\PersonApp\PersonApp.Services\obj\Debug\netcoreapp3.1\PersonApp.Services.csprojAssemblyReference.cache
+C:\vsprojects\PersonApp\PersonApp.Services\obj\Debug\netcoreapp3.1\PersonApp.Services.AssemblyInfoInputs.cache
+C:\vsprojects\PersonApp\PersonApp.Services\obj\Debug\netcoreapp3.1\PersonApp.Services.AssemblyInfo.cs
+C:\vsprojects\PersonApp\PersonApp.Services\obj\Debug\netcoreapp3.1\PersonApp.Services.csproj.CoreCompileInputs.cache
+C:\vsprojects\PersonApp\PersonApp.Services\obj\Debug\netcoreapp3.1\PersonApp.Services.csproj.CopyComplete
+C:\vsprojects\PersonApp\PersonApp.Services\obj\Debug\netcoreapp3.1\PersonApp.Services.dll
+C:\vsprojects\PersonApp\PersonApp.Services\obj\Debug\netcoreapp3.1\PersonApp.Services.pdb

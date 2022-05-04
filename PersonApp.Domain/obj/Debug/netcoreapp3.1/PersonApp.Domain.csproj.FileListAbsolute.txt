@@ -1,0 +1,9 @@
+C:\vsprojects\PersonApp\PersonApp.Domain\bin\Debug\netcoreapp3.1\PersonApp.Domain.deps.json
+C:\vsprojects\PersonApp\PersonApp.Domain\bin\Debug\netcoreapp3.1\PersonApp.Domain.dll
+C:\vsprojects\PersonApp\PersonApp.Domain\bin\Debug\netcoreapp3.1\PersonApp.Domain.pdb
+C:\vsprojects\PersonApp\PersonApp.Domain\obj\Debug\netcoreapp3.1\PersonApp.Domain.csprojAssemblyReference.cache
+C:\vsprojects\PersonApp\PersonApp.Domain\obj\Debug\netcoreapp3.1\PersonApp.Domain.AssemblyInfoInputs.cache
+C:\vsprojects\PersonApp\PersonApp.Domain\obj\Debug\netcoreapp3.1\PersonApp.Domain.AssemblyInfo.cs
+C:\vsprojects\PersonApp\PersonApp.Domain\obj\Debug\netcoreapp3.1\PersonApp.Domain.csproj.CoreCompileInputs.cache
+C:\vsprojects\PersonApp\PersonApp.Domain\obj\Debug\netcoreapp3.1\PersonApp.Domain.dll
+C:\vsprojects\PersonApp\PersonApp.Domain\obj\Debug\netcoreapp3.1\PersonApp.Domain.pdb

@@ -1,0 +1,15 @@
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\bin\Debug\netcoreapp3.1\PersonApp.PersistenceDB.deps.json
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\bin\Debug\netcoreapp3.1\PersonApp.PersistenceDB.runtimeconfig.json
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\bin\Debug\netcoreapp3.1\PersonApp.PersistenceDB.runtimeconfig.dev.json
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\bin\Debug\netcoreapp3.1\PersonApp.PersistenceDB.dll
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\bin\Debug\netcoreapp3.1\PersonApp.PersistenceDB.pdb
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\bin\Debug\netcoreapp3.1\PersonApp.Domain.dll
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\bin\Debug\netcoreapp3.1\PersonApp.Domain.pdb
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.csprojAssemblyReference.cache
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.AssemblyInfoInputs.cache
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.AssemblyInfo.cs
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.csproj.CoreCompileInputs.cache
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.csproj.CopyComplete
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.dll
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.pdb
+C:\vsprojects\PersonApp\PersonApp.PersistenceDB\obj\Debug\netcoreapp3.1\PersonApp.PersistenceDB.genruntimeconfig.cache
