@@ -12,9 +12,9 @@ namespace PersonApp.Api.Controllers
 	{
 		private readonly IPersonService _personService;
 
-		public PersonController(IPersonService academyEventService)
+		public PersonController(IPersonService personService)
 		{
-			_personService = academyEventService;
+			_personService = personService;
 		}
 
 		[HttpGet]
