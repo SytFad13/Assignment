@@ -19,44 +19,6 @@ namespace PersonApp.PersistenceDB.Migrations
                 .HasAnnotation("ProductVersion", "5.0.11")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("PersonApp.Domain.POCO.Bank", b =>
-                {
-                    b.Property<int>("BankId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SwiftCode")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("BankId");
-
-                    b.ToTable("Banks");
-                });
-
-            modelBuilder.Entity("PersonApp.Domain.POCO.BankAccount", b =>
-                {
-                    b.Property<int>("BankAccountId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("AccountNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("BankId")
-                        .HasColumnType("int");
-
-                    b.HasKey("BankAccountId");
-
-                    b.HasIndex("BankId");
-
-                    b.ToTable("BankAccounts");
-                });
-
             modelBuilder.Entity("PersonApp.Domain.POCO.Person", b =>
                 {
                     b.Property<int>("PersonId")
@@ -64,41 +26,56 @@ namespace PersonApp.PersistenceDB.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Age")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("BankAccountId")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("FirstName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("GenderId")
+                        .HasColumnType("int");
+
                     b.Property<string>("LastName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PersonalNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("PersonId");
 
-                    b.HasIndex("BankAccountId");
+                    b.HasIndex("GenderId");
 
                     b.ToTable("Persons");
                 });
 
-            modelBuilder.Entity("PersonApp.Domain.POCO.BankAccount", b =>
+            modelBuilder.Entity("PersonApp.Domain.POCO.PersonGender", b =>
                 {
-                    b.HasOne("PersonApp.Domain.POCO.Bank", "Bank")
-                        .WithMany()
-                        .HasForeignKey("BankId");
+                    b.Property<int>("GenderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Navigation("Bank");
+                    b.Property<bool>("Gender")
+                        .HasColumnType("bit");
+
+                    b.HasKey("GenderId");
+
+                    b.ToTable("PersonGenders");
                 });
 
             modelBuilder.Entity("PersonApp.Domain.POCO.Person", b =>
                 {
-                    b.HasOne("PersonApp.Domain.POCO.BankAccount", "BankAccount")
+                    b.HasOne("PersonApp.Domain.POCO.PersonGender", "Gender")
                         .WithMany()
-                        .HasForeignKey("BankAccountId");
+                        .HasForeignKey("GenderId");
 
-                    b.Navigation("BankAccount");
+                    b.Navigation("Gender");
                 });
 #pragma warning restore 612, 618
         }

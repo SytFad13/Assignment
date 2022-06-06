@@ -12,9 +12,9 @@ namespace PersonApp.Api.Controllers
 	{
 		private readonly IPersonService _personService;
 
-		public PersonController(IPersonService academyEventService)
+		public PersonController(IPersonService personService)
 		{
-			_personService = academyEventService;
+			_personService = personService;
 		}
 
 		[HttpGet]
@@ -83,7 +83,7 @@ namespace PersonApp.Api.Controllers
 		}
 
 		[HttpGet]
-		[Route("{text}/" + nameof(GetByPart))]
+		[Route("{filter}/{text}")]
 		public async Task<ActionResult> GetByPart(string text)
 		{
 			var person = await _personService.GetByText(text);

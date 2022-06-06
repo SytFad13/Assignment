@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using PersonApp.Domain.POCO;
 
 namespace PersonApp.PersistenceDB
@@ -19,8 +17,6 @@ namespace PersonApp.PersistenceDB
 
 		public DbSet<Person> Persons { get; set; }
 
-		public DbSet<Bank> Banks { get; set; }
-
-		public DbSet<BankAccount> BankAccounts { get; set; }
+		public DbSet<PersonGender> PersonGenders { get; set; }
 	}
 }

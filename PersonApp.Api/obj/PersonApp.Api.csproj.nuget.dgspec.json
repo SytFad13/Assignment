@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\vsprojects\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj": {}
+    "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\vsprojects\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj": {
+    "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vsprojects\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj",
+        "projectUniqueName": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj",
         "projectName": "PersonApp.Api",
-        "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj",
+        "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Api\\PersonApp.Api.csproj",
         "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
-        "outputPath": "C:\\vsprojects\\PersonApp\\PersonApp.Api\\obj\\",
+        "outputPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\vsprojects\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj": {
-                "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj"
+              "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj": {
+                "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj"
               }
             }
           }
@@ -48,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -73,25 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\vsprojects\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj": {
+    "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vsprojects\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj",
+        "projectUniqueName": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj",
         "projectName": "PersonApp.DAL",
-        "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj",
+        "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj",
         "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
-        "outputPath": "C:\\vsprojects\\PersonApp\\PersonApp.DAL\\obj\\",
+        "outputPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,11 +101,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
-                "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj"
+              "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
+                "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj"
               },
-              "C:\\vsprojects\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj": {
-                "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj"
+              "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj": {
+                "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj"
               }
             }
           }
@@ -133,30 +129,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
+    "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj",
+        "projectUniqueName": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj",
         "projectName": "PersonApp.Domain",
-        "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj",
+        "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
-        "outputPath": "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\obj\\",
+        "outputPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,25 +202,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\vsprojects\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj": {
+    "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vsprojects\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj",
+        "projectUniqueName": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj",
         "projectName": "PersonApp.PersistenceDB",
-        "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj",
+        "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj",
         "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
-        "outputPath": "C:\\vsprojects\\PersonApp\\PersonApp.PersistenceDB\\obj\\",
+        "outputPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.PersistenceDB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,8 +230,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
-                "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj"
+              "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
+                "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj"
               }
             }
           }
@@ -282,25 +284,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\vsprojects\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj": {
+    "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vsprojects\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj",
+        "projectUniqueName": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj",
         "projectName": "PersonApp.Services",
-        "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj",
+        "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj",
         "packagesPath": "C:\\Users\\Saba\\.nuget\\packages\\",
-        "outputPath": "C:\\vsprojects\\PersonApp\\PersonApp.Services\\obj\\",
+        "outputPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Saba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -314,11 +312,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\vsprojects\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj": {
-                "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj"
+              "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj": {
+                "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.DAL\\PersonApp.DAL.csproj"
               },
-              "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
-                "projectPath": "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj"
+              "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj": {
+                "projectPath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj"
               }
             }
           }
@@ -342,12 +340,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

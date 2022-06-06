@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4giJZsqZDRTDGE+98NXJwf3q2pBukr7iAcGc5PS8AffhpDcwakTqKV8UB+jaPin0fgmEPp9iIVOiuKnS4sNVDw==",
+  "dgSpecHash": "ZDmT6p/Khgn6HbiDToTQ7m6kVqycLcOe0I5LIeeiePftMt3w9XLXKOGHLOV4kb4Vo4vHT4jgkMWVjrmsuYZIuw==",
   "success": true,
-  "projectFilePath": "C:\\vsprojects\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj",
+  "projectFilePath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.PersistenceDB\\PersonApp.PersistenceDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Saba\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Saba\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",

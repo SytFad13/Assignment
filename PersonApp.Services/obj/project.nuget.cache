@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bSES86CaTA8hbLnsKuUxV1Lp71KFIPc3Y6CjjlOEgf93AbFDKDnvla1WcKjSs4/m+7aQCQvV86xUPk6taMs8Sg==",
+  "dgSpecHash": "knd8+p9BpaiOb7gyaPb8GUCoReDfYWeQW1p9Qr+DrOQsTBoReKz5bHmTM5lrJ1xaNEwK8yI0aDXMk3M47OqHuw==",
   "success": true,
-  "projectFilePath": "C:\\vsprojects\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj",
+  "projectFilePath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Services\\PersonApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Saba\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
     "C:\\Users\\Saba\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.11\\microsoft.aspnetcore.cryptography.keyderivation.5.0.11.nupkg.sha512",
@@ -102,7 +102,10 @@
     "C:\\Users\\Saba\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Saba\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Saba\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Saba\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Saba\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Saba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Saba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Saba\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eA6S6Qrbi7FynT7/vGGSV2scvVHtYqNK3OGxQbR32key9AvWLXyu9bBIQgY9t1R0/M+rUY3eCwBESgscV2M24Q==",
+  "dgSpecHash": "/9EXGGh8MtjjSD2BR/64Xbtar1K4bt64faUo3b74guRa+GWb4vZebwtGnqNKp4q9xYrKZrOvD+x/ITcooLKY/A==",
   "success": true,
-  "projectFilePath": "C:\\vsprojects\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj",
+  "projectFilePath": "C:\\vsprojects\\DeveloperTask\\PersonApp\\PersonApp.Domain\\PersonApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

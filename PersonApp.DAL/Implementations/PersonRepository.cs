@@ -17,19 +17,6 @@ namespace PersonApp.DAL.Implementations
 			_dbContext = dbContext;
 		}
 
-		public async Task<Person> CreateAsync(Person person)
-		{
-			await _dbContext.Persons.AddAsync(person);
-			await _dbContext.SaveChangesAsync();
-			return person;
-		}
-
-		public async Task DeleteAsync(Person person)
-		{
-			_dbContext.Persons.Remove(person);
-			await _dbContext.SaveChangesAsync();
-		}
-
 		public async Task<ICollection<Person>> GetAllAsync()
 		{
 			return await _dbContext.Persons.AsNoTracking().ToListAsync();
@@ -38,6 +25,27 @@ namespace PersonApp.DAL.Implementations
 		public async Task<Person> GetByIdAsync(int id)
 		{
 			return await _dbContext.Persons.AsNoTracking().FirstOrDefaultAsync(c => c.PersonId == id);
+		}
+
+		public async Task<Person> CreateAsync(Person person)
+		{
+			await _dbContext.Persons.AddAsync(person);
+			await _dbContext.SaveChangesAsync();
+			return person;
+		}
+
+		public async Task<Person> UpdateAsync(Person person)
+		{
+			_dbContext.Persons.Update(person);
+			await _dbContext.SaveChangesAsync();
+
+			return person;
+		}
+
+		public async Task DeleteAsync(Person person)
+		{
+			_dbContext.Persons.Remove(person);
+			await _dbContext.SaveChangesAsync();
 		}
 
 		public async Task<Person> GetByNameAsync(string firstName)
@@ -49,17 +57,9 @@ namespace PersonApp.DAL.Implementations
 
 		public async Task<ICollection<Person>> GetByTextAsync(string text)
 		{
-			var persons = await _dbContext.Persons.Where(p => (p.FirstName + " " + p.LastName).Contains(text)).ToListAsync();
+			var persons = await _dbContext.Persons.Where(p => (p.FirstName + " " + p.LastName + " " + p.PersonalNumber).Contains(text)).ToListAsync();
 
 			return persons;
-		}
-
-		public async Task<Person> UpdateAsync(Person person)
-		{
-			_dbContext.Persons.Update(person);
-			await _dbContext.SaveChangesAsync();
-
-			return person;
 		}
 	}
 }

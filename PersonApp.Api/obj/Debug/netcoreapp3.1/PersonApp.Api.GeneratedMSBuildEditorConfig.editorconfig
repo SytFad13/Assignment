@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = PersonApp.Api
+build_property.ProjectDir = C:\vsprojects\DeveloperTask\PersonApp\PersonApp.Api\

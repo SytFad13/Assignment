@@ -45,9 +45,9 @@ namespace PersonApp.Services.Implementations
 
 		public async Task<Person> CreateAsync(Person person)
 		{
-			var PersonInDb = await _personRepo.GetByNameAsync(person.FirstName);
+			var personInDb = await _personRepo.GetByNameAsync(person.FirstName);
 
-			if (PersonInDb != null)
+			if (personInDb != null)
 			{
 				return null;
 			}
@@ -66,11 +66,7 @@ namespace PersonApp.Services.Implementations
 				return null;
 			}
 
-			personInDb.BankAccount = new BankAccount();
-
-			personInDb.BankAccount.AccountNumber = person.BankAccount.AccountNumber;
-
-			await _personRepo.UpdateAsync(personInDb);
+			await _personRepo.UpdateAsync(person);
 
 			return person;
 		}

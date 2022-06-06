@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace PersonApp.Domain.POCO
 {
@@ -6,9 +7,16 @@ namespace PersonApp.Domain.POCO
 	{
 		[Key]
 		public int PersonId { get; set; }
+		[Required]
 		public string FirstName { get; set; }
+		[Required]
 		public string LastName { get; set; }
-		public int Age { get; set; }
-		public BankAccount BankAccount { get; set; }
+		[Required]
+		public string PersonalNumber { get; set; }
+		[Required]
+		public PersonGender Gender { get; set; }
+		[Required]
+		public bool Status { get; set; }
+		public DateTime DateOfBirth { get; set; }
 	}
 }
